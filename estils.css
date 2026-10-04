@@ -1,0 +1,139 @@
+/* =====================================
+ESTILOS GENERALES
+===================================== */
+
+/* Tipografía pública para todos los elementos
+de la clase contenido */
+.contenido {
+font-family: Arial, Helvetica, sans-serif;
+
+```
+width: 80%;
+margin: auto;
+padding: 20px;
+```
+
+}
+
+/* =====================================
+TÍTULOS
+===================================== */
+
+h1 {
+color: #1e3a5f;
+font-size: 32px;
+border-bottom: 2px solid #3498db;
+padding-bottom: 8px;
+}
+
+h2 {
+color: #2980b9;
+margin-top: 30px;
+}
+
+/* =====================================
+ENLACES
+===================================== */
+
+a {
+color: #2980b9;
+text-decoration: none;
+font-weight: bold;
+margin-right: 20px;
+}
+
+/* Estilo hover de los enlaces */
+
+a:hover {
+color: #e74c3c;
+text-decoration: underline;
+}
+
+/* =====================================
+CLASE
+===================================== */
+
+.contenido p {
+font-size: 17px;
+color: #444;
+}
+
+/* =====================================
+ID
+===================================== */
+
+#nombre {
+color: #1e3a5f;
+font-size: 40px;
+}
+
+/* =====================================
+LISTAS
+===================================== */
+
+li {
+margin: 8px;
+}
+
+/* Primer elemento de una lista */
+
+li:first-child {
+color: #27ae60;
+font-weight: bold;
+}
+
+/* Último elemento de una lista */
+
+li:last-child {
+color: #e67e22;
+}
+
+/* =====================================
+JERARQUÍA COMBINADA
+id > elemento
+===================================== */
+
+#habilidades > li {
+background-color: #ecf0f1;
+padding: 8px;
+border-left: 4px solid #3498db;
+}
+
+/* =====================================
+PSEUDOELEMENTOS
+===================================== */
+
+h2::before {
+content: "◆ ";
+color: #3498db;
+}
+
+h2::after {
+content: " ✓";
+color: #27ae60;
+}
+
+/* =====================================
+IMAGEN
+===================================== */
+
+img {
+border-radius: 10px;
+border: 3px solid #3498db;
+}
+
+/* =====================================
+FOOTER
+===================================== */
+
+footer {
+text-align: center;
+margin-top: 40px;
+padding: 20px;
+
+```
+background-color: #1e3a5f;
+color: white;
+```
+
+}
